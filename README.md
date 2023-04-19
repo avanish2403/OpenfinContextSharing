@@ -19,4 +19,4 @@ Please follow below steps to setup the repo:
    Now, the new window will appear with the data which was sent using that "Send Data" button.
    Now open TradingTicket from Dock, you'll see that the data which was sent earlier is still displaying on the UI. For removing the same,when the TradingTicket is          opened from Dock, I have tried all the possible way to remove the context which was shared earlier but non of the approach was working.
 
-2. When we click on "Send data" button it will create a window. Minimize the created window and again click on "Send data" button, nothing will happen. Here I want that    the window which is minimized gets in the front of the screen id that button is clicked again.
+2. When we click on "Send data" button it will create a window. Minimize the created window and again click on "Send data" button, nothing will happen. Here I want that    the window which is minimized gets in the front of the screen if that button is clicked again.
