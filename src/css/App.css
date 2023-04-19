@@ -1,0 +1,9 @@
+body{
+  background-color: black;
+  height: 100vh;
+}
+
+.heading{
+  text-align: center;
+  color: white;
+}
