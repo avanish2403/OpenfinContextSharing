@@ -6,7 +6,7 @@ Context sharing through Openfin
 Please follow below steps to setup the repo:
 1. Open VS Code Terminal and Run the “yarn setup" command to install the dependencies.
 
-2. After completing the above command, run the “yarn openfin:build” command to build the openfin part.
+2. After completing the above command, run the "yarn build" & “yarn openfin:build” command to build the application of both react side and openfin side.
 
 3. After completing the above command, run the “yarn start” command to run the application.
 
