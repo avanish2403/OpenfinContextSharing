@@ -7,7 +7,7 @@
     "setup": "cd ./openfin/ && yarn setup && cd ../ && yarn install",
     "start": "webpack-dev-server --config webpack/webpack.dev.js",
     "build": "webpack --config webpack/webpack.prod.js --progress",
-    "openfin": "node public/scripts/launch.mjs",
+    "openfin": "node public/config/scripts/launch.mjs",
     "openfin:build": "cd ./openfin/ && yarn build"
   },
   "author": "Openfin",

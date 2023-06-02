@@ -25,7 +25,7 @@ async function launchFromNode(manifestUrl) {
   try {
     const launchArgs = process.argv.slice(2);
 
-    let manifestUrl = 'http://localhost:5098/config/manifest.fin.json';
+    let manifestUrl = 'http://localhost:8082/config/manifest.fin.json';
 
     if (launchArgs.length > 0) {
       manifestUrl = launchArgs[0];

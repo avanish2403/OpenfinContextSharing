@@ -1,6 +1,6 @@
 {
   "devtools_port": 8084,
-  "splashScreenImage": "http://localhost:5098/images/favicon.ico",
+  "splashScreenImage": "http://localhost:8082/images/favicon.ico",
   "licenseKey": "WS516fe491-2967-4909-abaa-1316d2e446b3",
   "runtime": {
     "arguments": "--inspect",
@@ -15,9 +15,9 @@
   "platform": {
     "name": "Openfin",
     "uuid": "openfin",
-    "icon": "http://localhost:5098/favicon.ico",
+    "icon": "http://localhost:8082/favicon.ico",
     "autoShow": false,
-    "providerUrl": "http://localhost:5098/config/platform/provider.html/",
+    "providerUrl": "http://localhost:8082/config/platform/provider.html/",
     "preventQuitOnLastWindowClosed": true,
     "permissions": {
       "System": {
@@ -54,7 +54,7 @@
   "shortcut": {
     "company": "Openfin",
     "description": "From Complexity to Simplicity",
-    "icon": "http://localhost:5098/favicon.ico",
+    "icon": "http://localhost:8082/favicon.ico",
     "name": "Openfin",
     "target": ["desktop", "start-menu"]
   },
@@ -77,12 +77,12 @@
         {
           "enabled": true,
           "id": "login",
-          "url": "http://localhost:5098/build/modules/auth/login.bundle.js",
+          "url": "http://localhost:8082/build/modules/auth/login.bundle.js",
           "data": {
-            "autoLogin": false,
-            "loginUrl": "http://localhost:5098",
-            "logoutUrl": "http://localhost:5098/Logout",
-            "authenticatedUrl": "http://localhost:5098/Home",
+            "autoLogin": true,
+            "loginUrl": "http://localhost:8082",
+            "logoutUrl": "http://localhost:8082/Logout",
+            "authenticatedUrl": "http://localhost:8082/Home",
             "checkLoginStatusInSeconds": 1,
             "checkSessionValidityInSeconds": -1
           }
@@ -90,10 +90,10 @@
       ]
     },
     "platformProvider": {
-      "rootUrl": "http://localhost:5098",
+      "rootUrl": "http://localhost:8082",
       "sharing": true,
       "intentPicker": {
-        "url": "http://localhost:5098/window/intents/picker.html/",
+        "url": "http://localhost:8082/window/intents/picker.html/",
         "height": 400,
         "width": 400
       }
@@ -112,7 +112,7 @@
           "type": "fetch",
           "options": {
             "method": "GET",
-            "url": "http://localhost:5098/config/apps.json"
+            "url": "http://localhost:8082/config/apps.json"
           }
         },
         {
@@ -136,7 +136,7 @@
     "browserProvider": {
       "windowOptions": {
         "title": "Openfin",
-        "icon": "http://localhost:5098/favicon.ico"
+        "icon": "http://localhost:8082/favicon.ico"
       },
       "globalMenu": [
         {
@@ -201,7 +201,7 @@
             "type": "Custom",
             "tooltip": "Share",
             "disabled": false,
-            "iconUrl": "http://localhost:5098/images/icons/dark/share.svg",
+            "iconUrl": "http://localhost:8082/images/icons/dark/share.svg",
             "action": {
               "id": "share",
               "customData": {}
@@ -223,7 +223,7 @@
         {
           "id": "default",
           "label": "Default",
-          "logoUrl": "http://localhost:5098/favicon.ico",
+          "logoUrl": "http://localhost:8082/favicon.ico",
           "default": "dark",
           "palettes": {
             "light": {
@@ -289,39 +289,39 @@
     "homeProvider": {
       "id": "openfin-home",
       "title": "Openfin",
-      "icon": "http://localhost:5098/favicon.ico",
+      "icon": "http://localhost:8082/favicon.ico",
       "queryMinLength": 3,
       "queryAgainst": ["title"]
     },
     "integrationProvider": {
-      "icon": "http://localhost:5098/favicon.ico",
+      "icon": "http://localhost:8082/favicon.ico",
       "isManagementEnabled": false,
       "command": "integrations",
       "commandDescription": "Allows the management of integrations for this platform. You can decide whether enabled integrations should be included when a query is entered.",
       "modules": [
         {
           "id": "workspaces",
-          "icon": "http://localhost:5098/favicon.ico",
+          "icon": "http://localhost:8082/favicon.ico",
           "title": "Workspaces",
           "description": "Manage workspaces",
           "enabled": true,
-          "url": "http://localhost:5098/build/modules/integrations/workspaces.bundle.js",
+          "url": "http://localhost:8082/build/modules/integrations/workspaces.bundle.js",
           "data": {
             "images": {
-              "workspace": "http://localhost:5098/images/icons/{scheme}/workspace.svg"
+              "workspace": "http://localhost:8082/images/icons/{scheme}/workspace.svg"
             }
           }
         },
         {
           "id": "pages",
-          "icon": "http://localhost:5098/favicon.ico",
+          "icon": "http://localhost:8082/favicon.ico",
           "title": "Pages",
           "description": "Manage Pages",
           "enabled": true,
-          "url": "http://localhost:5098/build/modules/integrations/pages.bundle.js",
+          "url": "http://localhost:8082/build/modules/integrations/pages.bundle.js",
           "data": {
             "images": {
-              "page": "http://localhost:5098/images/icons/{scheme}/page.svg"
+              "page": "http://localhost:8082/images/icons/{scheme}/page.svg"
             }
           }
         }
@@ -330,7 +330,7 @@
     "dockProvider": {
       "id": "openfin-dock",
       "title": "Openfin Dock",
-      "icon": "http://localhost:5098/favicon.ico",
+      "icon": "http://localhost:8082/favicon.ico",
       "workspaceComponents": {
         "hideHomeButton": false,
         "hideWorkspacesButton": false,
@@ -348,7 +348,7 @@
     "notificationProvider": {
       "id": "openfin-notifications",
       "title": "Openfin Notification",
-      "icon": "http://localhost:5098/favicon.ico"
+      "icon": "http://localhost:8082/favicon.ico"
     }
   }
 }
