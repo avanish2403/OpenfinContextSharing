@@ -1,0 +1,7 @@
+{
+  "url": "http://localhost:5098/Blotter",
+  "interop": {
+    "currentContextGroup": "green"
+  },
+  "name": "Blotter"
+}

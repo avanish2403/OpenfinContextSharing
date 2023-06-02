@@ -22,7 +22,7 @@ const configs = [
       library: {
         type: 'module',
       },
-      path: path.resolve(__dirname, '..', '..', 'public', 'openfin-build'),
+      path: path.resolve(__dirname, '..', '..', 'public', 'build'),
     },
     experiments: {
       outputModule: true,
@@ -49,7 +49,7 @@ const configs = [
       library: {
         type: 'module',
       },
-      path: path.resolve(__dirname, '..', '..', 'public', 'openfin-build'),
+      path: path.resolve(__dirname, '..', '..', 'public', 'build'),
     },
     experiments: {
       outputModule: true,
@@ -76,7 +76,7 @@ const configs = [
       library: {
         type: 'module',
       },
-      path: path.resolve(__dirname, '..', '..', 'public', 'openfin-build', 'modules', 'auth'),
+      path: path.resolve(__dirname, '..', '..', 'public', 'build', 'modules', 'auth'),
     },
     experiments: {
       outputModule: true,
@@ -103,7 +103,7 @@ const configs = [
       library: {
         type: 'module',
       },
-      path: path.resolve(__dirname, '..', '..', 'public', 'openfin-build', 'modules', 'integrations'),
+      path: path.resolve(__dirname, '..', '..', 'public', 'build', 'modules', 'integrations'),
     },
     experiments: {
       outputModule: true,
@@ -130,7 +130,7 @@ const configs = [
       library: {
         type: 'module',
       },
-      path: path.resolve(__dirname, '..', '..', 'public', 'openfin-build', 'modules', 'integrations'),
+      path: path.resolve(__dirname, '..', '..', 'public', 'build', 'modules', 'integrations'),
     },
     experiments: {
       outputModule: true,

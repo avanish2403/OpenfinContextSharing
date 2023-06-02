@@ -1,0 +1,32 @@
+{
+  "windows": [
+    {
+      "defaultHeight": 623,
+      "defaultWidth": 1332,
+      "defaultTop": 60,
+      "defaultLeft": 20,
+      "workspacePlatform": {
+        "pages": [
+          {
+            "pageId": "holding-manager",
+            "title": "Holdings Management",
+            "layout": {
+              "settings": {
+                "hasHeaders": false
+              },
+              "content": [
+                {
+                  "type": "component",
+                  "componentName": "view",
+                  "componentState": {
+                    "url": "https://www.figma.com/proto/fHUBdB831tdV4kI5PRXEN8/Vertical-Tabs?page-id=0%3A1&node-id=2-49829&viewport=774%2C823%2C0.08&scaling=scale-down&starting-point-node-id=2%3A49829"
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

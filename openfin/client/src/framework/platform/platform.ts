@@ -67,7 +67,14 @@ async function setupPlatform(_?: PlatformProviderOptions): Promise<boolean> {
   await registerShare(sharing);
 
   logger.info('Initializing platform');
-  const browser: BrowserInitConfig = {};
+  const browser: BrowserInitConfig = { 
+    "defaultPageOptions": { 
+      "closeButton": { 
+        "disabled": true, 
+        "hidden": true 
+        } 
+      } 
+    };
 
   if (settings.browserProvider !== undefined) {
     browser.defaultWindowOptions = await getDefaultWindowOptions();

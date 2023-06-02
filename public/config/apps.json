@@ -1,0 +1,40 @@
+[
+  {
+    "appId": "trading-ticket",
+    "name": "trading-ticket",
+    "title": "Trading Ticket",
+    "description": "Trading Ticket",
+    "manifest": "http://localhost:8082/snapshots/TradingTicketSS.json",
+    "manifestType": "snapshot",
+    "icons": [{ "src": "http://localhost:8082/images/TradingTicket.svg" }],
+    "contactEmail": "abc@openfin.com",
+    "supportEmail": "abc@openfin.com",
+    "publisher": "Openfin",
+    "intents": [],
+    "images": [
+      {
+        "src": "http://localhost:8082/images/TradingTicket.svg"
+      }
+    ],
+    "tags": ["view", "interop", "dock"]
+  },
+  {
+    "appId": "blotter",
+    "name": "blotter",
+    "title": "Blotter",
+    "description": "Blotter",
+    "manifest": "http://localhost:8082/snapshots/BlotterSS.json",
+    "manifestType": "snapshot",
+    "icons": [{ "src": "http://localhost:8082/images/Blotter.svg" }],
+    "contactEmail": "abc@openfin.com",
+    "supportEmail": "abc@openfin.com",
+    "publisher": "OpenFin",
+    "intents": [],
+    "images": [
+      {
+        "src": "http://localhost:8082/images/Blotter.svg"
+      }
+    ],
+    "tags": ["view", "interop", "dock"]
+  }
+]
