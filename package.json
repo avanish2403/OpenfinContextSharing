@@ -15,6 +15,7 @@
   "dependencies": {
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
+    "@openfin/core": "^29.73.14",
     "@fortawesome/fontawesome-svg-core": "^6.2.1",
     "@fortawesome/free-solid-svg-icons": "^6.2.1",
     "@fortawesome/react-fontawesome": "^0.2.0",
@@ -25,7 +26,8 @@
     "dotenv-webpack": "^8.0.1",
     "express": "^4.18.2",
     "gh-pages": "^5.0.0",
-    "openfin-adapter": "^27.71.21",
+    "openfin-adapter": "^30.74.8",
+    "openfin-notifications": "^1.21.2",
     "react": "^18.2.0",
     "react-bootstrap": "^2.6.0",
     "react-bootstrap-table-next": "^4.0.3",
