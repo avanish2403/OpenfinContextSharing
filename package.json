@@ -19,7 +19,6 @@
     "@fortawesome/fontawesome-svg-core": "^6.2.1",
     "@fortawesome/free-solid-svg-icons": "^6.2.1",
     "@fortawesome/react-fontawesome": "^0.2.0",
-    "@openfin/workspace": "^9.1.22",
     "bootstrap": "^5.2.3",
     "copy-webpack-plugin": "^11.0.0",
     "cors": "^2.8.5",

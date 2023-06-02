@@ -1265,13 +1265,6 @@
     openfin-service-signal "^1.0.0"
     reflect-metadata "^0.1.13"
 
-"@openfin/workspace@^9.1.22":
-  version "9.1.22"
-  resolved "https://registry.yarnpkg.com/@openfin/workspace/-/workspace-9.1.22.tgz#c69137a2e191ce97f834d7ea0ba8aa1cf2ef3210"
-  integrity sha512-NfrTOhOA95ojgYQMGk0LJVqApCVyXupmrLQ61hhtzABKsiAf0UQ3ObZJ4Aw9IwxOEyQdC7PBHvSuhsisnTX2LA==
-  dependencies:
-    openfin-notifications "^1.17.2"
-
 "@popperjs/core@^2.11.5":
   version "2.11.6"
   resolved "https://registry.yarnpkg.com/@popperjs/core/-/core-2.11.6.tgz#cee20bd55e68a1720bdab363ecf0c821ded4cd45"
@@ -1815,13 +1808,6 @@ anymatch@~3.1.2:
   dependencies:
     normalize-path "^3.0.0"
     picomatch "^2.0.4"
-
-argparse@^1.0.7:
-  version "1.0.10"
-  resolved "https://registry.yarnpkg.com/argparse/-/argparse-1.0.10.tgz#bcd6791ea5ae09725e17e5ad988134cd40b3d911"
-  integrity sha512-o5Roy6tNG4SL/FOkCAN6RzjiakZS25RLYFrcMttJqbdd8BWrnA+fGz57iN5Pb06pvBGvl5gQ0B48dJlslXvoTg==
-  dependencies:
-    sprintf-js "~1.0.2"
 
 argparse@^2.0.1:
   version "2.0.1"
@@ -2549,11 +2535,6 @@ detect-node@^2.0.4:
   resolved "https://registry.yarnpkg.com/detect-node/-/detect-node-2.1.0.tgz#c9c70775a49c3d03bc2c06d9a73be550f978f8b1"
   integrity sha512-T0NIuQpnTvFDATNuHN5roPwSBG83rFsuO+MXXH9/3N1eFbn4wcPjttvjMLEPWJ0RGUYgQE7cGgS3tNxbqCGM7g==
 
-dexie@^2.0.4:
-  version "2.0.4"
-  resolved "https://registry.yarnpkg.com/dexie/-/dexie-2.0.4.tgz#6027a5e05879424e8f9979d8c14e7420f27e3a11"
-  integrity sha512-aQ/s1U2wHxwBKRrt2Z/mwFNHMQWhESerFsMYzE+5P5OsIe5o1kgpFMWkzKTtkvkyyEni6mWr/T4HUJuY9xIHLA==
-
 dexie@^3.2.2:
   version "3.2.4"
   resolved "https://registry.yarnpkg.com/dexie/-/dexie-3.2.4.tgz#b22a9729be1102acb2eee16102ea6e2bc76454cf"
@@ -2706,11 +2687,6 @@ entities@^2.0.0:
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/entities/-/entities-2.2.0.tgz#098dc90ebb83d8dffa089d55256b351d34c4da55"
   integrity sha512-p92if5Nz619I0w+akJrLZH0MX0Pb5DX39XOwQTtXSdQQOaYH03S1uIQp4mhOZtAXrxq4ViO67YTiLBo2638o9A==
-
-entities@~1.1.1:
-  version "1.1.2"
-  resolved "https://registry.yarnpkg.com/entities/-/entities-1.1.2.tgz#bdfa735299664dfafd34529ed4f8522a275fea56"
-  integrity sha512-f2LZMYl1Fzu7YSBKg+RoROelpOaNrcGmE9AZubeDfrCEia483oW4MI4VyFd5VNHIgQ/7qm1I0wUHK1eJnn2y2w==
 
 entities@~3.0.1:
   version "3.0.1"
@@ -4041,13 +4017,6 @@ lines-and-columns@^1.1.6:
   resolved "https://registry.yarnpkg.com/lines-and-columns/-/lines-and-columns-1.2.4.tgz#eca284f75d2965079309dc0ad9255abb2ebc1632"
   integrity sha512-7ylylesZQ/PV29jhEDl3Ufjo6ZX7gCqJr5F7PKrqc93v7fzSymt1BpwEU8nAUXs8qzzvqhbjhK5QZg6Mt/HkBg==
 
-linkify-it@^2.0.0:
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/linkify-it/-/linkify-it-2.2.0.tgz#e3b54697e78bf915c70a38acd78fd09e0058b1cf"
-  integrity sha512-GnAl/knGn+i1U/wjBz3akz2stz+HrHLsxMwHQGofCDfPvlf+gDKN58UtfmUquTY4/MXeE2x7k19KQmeoZi94Iw==
-  dependencies:
-    uc.micro "^1.0.1"
-
 linkify-it@^4.0.1:
   version "4.0.1"
   resolved "https://registry.yarnpkg.com/linkify-it/-/linkify-it-4.0.1.tgz#01f1d5e508190d06669982ba31a7d9f56a5751ec"
@@ -4152,17 +4121,6 @@ markdown-it@^13.0.1:
     argparse "^2.0.1"
     entities "~3.0.1"
     linkify-it "^4.0.1"
-    mdurl "^1.0.1"
-    uc.micro "^1.0.5"
-
-markdown-it@^9.1.0:
-  version "9.1.0"
-  resolved "https://registry.yarnpkg.com/markdown-it/-/markdown-it-9.1.0.tgz#df9601c168568704d554b1fff9af0c5b561168d9"
-  integrity sha512-xHKG4C8iPriyfu/jc2hsCC045fKrMQ0VexX2F1FGYiRxDxqMB2aAhF8WauJ3fltn2kb90moGBkiiEdooGIg55w==
-  dependencies:
-    argparse "^1.0.7"
-    entities "~1.1.1"
-    linkify-it "^2.0.0"
     mdurl "^1.0.1"
     uc.micro "^1.0.5"
 
@@ -4512,37 +4470,6 @@ openfin-adapter@^30.74.8:
     "@types/node" "^16.0.0"
     lodash "^4.17.21"
     ws "^7.3.0"
-
-openfin-notifications@^1.17.2:
-  version "1.17.2"
-  resolved "https://registry.yarnpkg.com/openfin-notifications/-/openfin-notifications-1.17.2.tgz#a6dfd16c8781534f40f6a51e4a05c5c292c219a7"
-  integrity sha512-ZQS1cbu2BvwT+jMGaqtnomY12LCWHtlceIwghnY1vGPifTgolC8iCxKFkPGCtv9Q67+nzxtd2vSecL5NhbqTpQ==
-  dependencies:
-    "@openfin/predux" "^1.0.0-alpha.1"
-    date-fns "^2.29.2"
-    date-fns-tz "^1.3.7"
-    dexie "^2.0.4"
-    formik "^2.2.5"
-    framer-motion "^4.1.5"
-    fuse.js "^6.4.6"
-    history "^4.10.1"
-    inversify "^5.0.1"
-    lodash "^4.17.21"
-    markdown-it "^9.1.0"
-    openfin-service-async "^1.0.1"
-    openfin-service-signal "^1.0.0"
-    react "^17.0.1"
-    react-dom "^17.0.2"
-    react-redux "^7.0.2"
-    react-router-dom "^5.1.2"
-    react-transition-group "^4.2.2"
-    redux "^4.0.1"
-    reflect-metadata "^0.1.13"
-    reselect "^4.0.0"
-    semver-compare "^1.0.0"
-    styled-components "4.4.1"
-    uuid "^8.3.2"
-    yup "^0.32.9"
 
 openfin-notifications@^1.21.2:
   version "1.22.1"
@@ -5631,11 +5558,6 @@ spdy@^4.0.2:
     http-deceiver "^1.2.7"
     select-hose "^2.0.0"
     spdy-transport "^3.0.0"
-
-sprintf-js@~1.0.2:
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/sprintf-js/-/sprintf-js-1.0.3.tgz#04e6926f662895354f3dd015203633b857297e2c"
-  integrity sha512-D9cPgkvLlV3t3IzL0D0YLvGA9Ahk4PcvVwUbN0dSGr1aP0Nrt4AEnTUbuGvquEC0mA64Gqt1fzirlRs5ibXx8g==
 
 statuses@2.0.1:
   version "2.0.1"
