@@ -2,7 +2,7 @@ const path = require('path');
 
 const configs = [
   {
-    entry: './client/src/provider.ts',
+    entry: './openfin/client/src/provider.ts',
     devtool: 'inline-source-map',
     module: {
       rules: [
@@ -29,7 +29,7 @@ const configs = [
     },
   },
   {
-    entry: './client/src/shell.ts',
+    entry: './openfin/client/src/shell.ts',
     devtool: 'inline-source-map',
     module: {
       rules: [
@@ -56,7 +56,7 @@ const configs = [
     },
   },
   {
-    entry: './client/src/modules/auth/login/index.ts',
+    entry: './openfin/client/src/modules/auth/login/index.ts',
     devtool: 'inline-source-map',
     module: {
       rules: [
@@ -83,7 +83,7 @@ const configs = [
     },
   },
   {
-    entry: './client/src/modules/integrations/workspaces/index.ts',
+    entry: './openfin/client/src/modules/integrations/workspaces/index.ts',
     devtool: 'inline-source-map',
     module: {
       rules: [
@@ -110,7 +110,7 @@ const configs = [
     },
   },
   {
-    entry: './client/src/modules/integrations/pages/index.ts',
+    entry: './openfin/client/src/modules/integrations/pages/index.ts',
     devtool: 'inline-source-map',
     module: {
       rules: [
