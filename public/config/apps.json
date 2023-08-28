@@ -36,5 +36,23 @@
       }
     ],
     "tags": ["view", "interop", "dock"]
+  },
+  {
+    "appId": "popup",
+    "name": "popup",
+    "title": "Popup",
+    "description": "Popup",
+    "manifest": "http://localhost:8082/config/views/popup.json",
+    "manifestType": "view",
+    "contactEmail": "abc@openfin.com",
+    "supportEmail": "abc@openfin.com",
+    "publisher": "OpenFin",
+    "intents": [],
+    "images": [
+      {
+        "src": "http://localhost:8082/images/Popup.svg"
+      }
+    ],
+    "tags": ["view", "interop", "dock"]
   }
 ]
